@@ -5,7 +5,7 @@ The project starts with collecting and processing weather data from various sour
 
 After data preparation, exploratory data analysis (EDA) is performed on the weather data to gain insights into the distribution, correlation, and trends of different weather parameters over time. Data visualization tools, such as charts, graphs, and maps, are used to represent the data in an intuitive and meaningful way.
 
-The next stage of the project involves building machine learning models to predict the AQI (Air Quality Index) of PM2.5, CO, and SO2 based on the weather parameters. Various machine learning algorithms, such as linear regression(for AQI), naive bayes classifier, and decision tree(for 'conditions'), are tested and compared to identify the most accurate model
+The next stage of the project involves building machine learning models to predict the AQI (Air Quality Index) of PM2.5, CO, and SO2 based on the weather parameters. Various machine learning algorithms, such as random forest regressor(for AQI), naive bayes classifier and decision tree (for 'conditions') and linear regression (for both), are tested and compared to identify the most accurate model
 
 The results of the analysis concludes that the weather conditions are most strongly associated with air pollution in Mumbai and hence it is difficult to predict it with the weather parameters that are used.
 
